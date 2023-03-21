@@ -6,30 +6,32 @@ const {
    spanyol
 } = require(`./language`)
 
-global.OpenAIKey = "YOUR_KEY" //login to https://platform.openai.com/account/api-keys to get apikey
+global.OpenAIKey = "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" //login to https://platform.openai.com/account/api-keys to get apikey
 // Website Api (jgn di ganti tomlol)
 global.APIs = {
-   alfa: 'https://api.zeeoneofc.my.id', //apabila link api eror, segera laporkan ke owner
+   alfa: 'https://api.zeeoneofc.my.id',
+   fiki: 'https://apibot.fiki.site', //apabila link api eror, segera laporkan ke owner
 }
 
 //buy apikey premium 0887435047326
 // Free apikey (silahkan login terus ganti V12 dgn apikey lu)
 global.APIKeys = {
-   'https://api.zeeoneofc.my.id': 'V12', // 👉 login https://api.zeeoneofc.my.id to get apikey
+   'https://api.zeeoneofc.my.id': 'ZTSLTnrZQ7Quwvh',
+   'https://apibot.fiki.site': 'Fikiofc', // 👉 login https://api.zeeoneofc.my.id to get apikey
 }
 global.sewabotnya = `
-edit sewabot di file settings.js line 19
+Chat adminnya aja om
 `
 // setting 
 global.firtsChat = true //send firts message to new user
-global.autoread = true // auto read message
+global.autoread = false // auto read message
 global.antidelete = false // anti delete
 global.antiviewonce = true // anti view once
 global.autobio = false //auto ganti bio
 global.anticall = true //anti call 
-global.userRegister = false
+global.userRegister = true
 global.autoblok212 = false //ubah jadi true biar nmr 212 di blok sama bot
-global.autolevelup = true
+global.autolevelup = false
 global.groupOnly = false //bot hanya bisa di gunakan dalam grup
 
 //language
@@ -42,16 +44,16 @@ global.language = indonesia //change indonesia to english if you don't understan
 // Other
 // Other
 global.botname = "Alphabot-Mdོ" //namabot kalian
-global.ownername = "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×" //nama kalian
-global.myweb = "https://s.id/zeeoneofc" //bebas asal jan hapus
-global.youtube = "https://youtube.com/c/@ZeeoneOfc" //bebas asal jan hapus
+global.ownername = "ᴹᴿ᭄ FikiOfcོ ×፝֟͜×" //nama kalian
+global.myweb = "https://apibot.fiki.site" //bebas asal jan hapus
+global.youtube = "https://youtube.com/c/@FikiShop199" //bebas asal jan hapus
 global.myweb2 = "https://s.id/zeeoneofc" //bebas
-global.email = "zeeoneofc@gmail.com" //bebas
+global.email = "bisnis@fiki.site" //bebas
 global.region = "Indonesia" //bebas
 global.timezone = 'Asia/Jakarta' //  timezone wib
-global.premium = ['62887435047326'] //premium user
-global.owner = ["62887435047326", "62821931157232"] //ganti agar fitur owner bisa di gunakan
-global.ownernomer = "62887435047326" // nomor wa kalian
+global.premium = ['6283802824988'] //premium user
+global.owner = ["6283802824988", "6283802824988"] //ganti agar fitur owner bisa di gunakan
+global.ownernomer = "6283802824988" // nomor wa kalian
 global.ownernomerr = "+"+ownernomer //nmr wa kalian
 global.thumbnail = "./image/lol.jpg" // ini lol.jpg adalah nama foto di folder image. untuk foto bot
 global.donasi = "./image/donasi.jpg" // foto donasi di folder image
@@ -67,7 +69,7 @@ global.typemenu2 = 'templateImage' //
 global.multiplier = 69
 global.limitawal = {
    premium: "Infinity", //unlimited
-   free: 100
+   free: 10
 }
 global.buttonDefault = [{
    urlButton: {
